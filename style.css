@@ -64,6 +64,57 @@ section p {
   max-width: 720px;
 }
 
+/* ===== SEZIONE CORSI ===== */
+.corsi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.corso-card {
+  background: #ffffff;
+  border: 1px solid #e0e0d8;
+  border-radius: 10px;
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.corso-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.corso-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.corso-card p {
+  font-size: 0.95rem;
+  color: #5f5e5a;
+  margin-bottom: 0;
+}
+
+/* ===== SEZIONE CONTATTI ===== */
+.contatti-lista {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contatti-lista li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0d8;
+  font-size: 0.98rem;
+  color: #444441;
+}
+
+.contatti-lista li:last-child {
+  border-bottom: none;
+}
+
 /* ===== FOOTER ===== */
 footer {
   background-color: #1a1a2e;
