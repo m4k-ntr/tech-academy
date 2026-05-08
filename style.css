@@ -98,6 +98,49 @@ section p {
   margin-bottom: 0;
 }
 
+/* ===== SEZIONE VANTAGGI ===== */
+#vantaggi {
+  background-color: #f0f0ff;
+}
+
+.vantaggi-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.vantaggio {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 24px;
+  border-left: 4px solid #4f46e5;
+}
+
+.vantaggio .icona {
+  font-size: 1.2rem;
+  color: #4f46e5;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.vantaggio h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.vantaggio p {
+  font-size: 0.92rem;
+  color: #5f5e5a;
+  margin-bottom: 0;
+}
+
 /* ===== SEZIONE CONTATTI ===== */
 .contatti-lista {
   list-style: none;
