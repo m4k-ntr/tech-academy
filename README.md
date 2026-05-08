@@ -34,7 +34,6 @@ i vantaggi dell'iscrizione e i contatti.
 |---------|-------------|
 | `git init` | Inizializza un nuovo repository Git nella cartella corrente |
 | `git status` | Mostra lo stato dei file: modificati, in staging o non tracciati |
-| `git diff <file>` | Mostra le differenze tra la versione corrente e quella dell'ultimo commit |
 | `git add .` | Aggiunge tutti i file modificati all'area di staging |
 | `git add <file>` | Aggiunge un file specifico all'area di staging |
 | `git commit -m "messaggio"` | Salva le modifiche in staging con un messaggio descrittivo |
